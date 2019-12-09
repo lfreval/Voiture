@@ -1,12 +1,10 @@
 ﻿Module Module1
 
-    Dim vs = New VoitureSale
+    Dim vp = New VoiturePropre
 
     Sub Main()
-        vs.km = 12
-        Console.WriteLine(vs.km)
-        vs.km = -17
-        Console.WriteLine(vs.km)
+        Console.WriteLine(vp.Rouler(12))
+        Console.WriteLine(vp.Rouler(17))
         Console.ReadKey()
     End Sub
 

@@ -1,6 +1,6 @@
-﻿Public Class VoitureSale
+﻿Public Class VoiturePropre
     Private _kilometrage As Integer = 0
-    Public Property km As Integer
+    Private Property km As Integer
         Get
             Return _kilometrage
         End Get
