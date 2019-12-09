@@ -1,16 +1,12 @@
 ﻿Module Module1
 
-    Dim voiTure As New Hashtable
-
-    Sub parasite()
-        voiTure("kilometrage") = -30
-    End Sub
+    Dim vs = New VoitureSale
 
     Sub Main()
-        voiTure.Add("kilometrage", 0)
-        voiTure("kilometrage") += 12
-        parasite()
-        Console.WriteLine(voiTure("kilometrage"))
+        vs.km = 12
+        Console.WriteLine(vs.km)
+        vs.km = -17
+        Console.WriteLine(vs.km)
         Console.ReadKey()
     End Sub
 
